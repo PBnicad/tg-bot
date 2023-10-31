@@ -29,7 +29,7 @@ async def main():
         photo=image,
         caption=info
     )
-
+'''
     # Pixiv 插画周榜
     lst = weekly_ranking()
     await bot.sendMediaGroup(
@@ -44,7 +44,7 @@ async def main():
         text=msg,
         parse_mode="HTML"
     )
-
+'''
     # Bilibili 动态更新
     msg = ups_updates()
     await bot.sendMessage(
